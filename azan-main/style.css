@@ -1,0 +1,275 @@
+*{
+          padding: 0;
+          margin: 0;
+}
+body{
+    font-family: sans-serif;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+     
+}
+nav{
+          justify-content: space-between;
+          display: flex;
+}
+.Zarrin{
+    display: flex;
+    
+    justify-content: space-between;
+
+}
+.navicon>ul>li>a{
+    
+}
+.navbar{
+          padding: 2.5rem;
+          background-color: rgb(254, 254, 254);
+          border-color: black;
+          
+}
+ul{
+         list-style-type: none;
+          color: black;
+          text-decoration: none;
+}
+a {
+          text-decoration: none;
+          color: black;
+}
+.ul:hover{
+          color: rgb(114, 32, 196);
+}
+.navicon ul button:hover{
+          color  :rgb(0, 122, 230);
+
+}
+ul button {
+          background-color: #7c4ee4;
+          width: 100px;
+          height: 35px;
+          border-radius:0.32em;
+}
+.navicon ul{
+          gap: 30px;
+          font-weight: 700;
+          display: flex;
+          text-decoration: none;
+          align-items: center;
+          color: black;
+}
+#icon{
+    display: none;
+
+}
+ .search{
+    display: visible;
+}
+@media  (max-width: 570px;){
+    #icon{
+     
+        display: block;
+    }
+    
+}
+.main{
+    display: flex;
+    background-color: #7c4ee4;
+}
+.main h5{
+    color: white;
+    margin:40px ;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.main p{
+    color: white;
+    margin: 50px;
+ margin-left: 30px;
+}
+.main h1{
+    color: white;
+    font-size: 3.16em;
+    font-weight: 600;
+    /* line-height: 1.2px; */
+    margin: 1px;
+    margin-left: 20px;
+    word-spacing: 10px;
+}
+.main button{
+  width: 140px;
+  border-radius: 0.3em;
+  height: 35px;
+  margin-left: 30px;
+}
+@media(max-width:660px) {
+    
+}
+.another{
+    margin:20px;
+    
+}
+.recent{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.view{
+     background-color: #7c4ee4;
+      width: 100px;
+          height: 35px;
+          border-radius:0.32em;
+}
+.game{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+}
+.game h5{
+   align-items: center;
+   margin-left:30px;
+   margin-bottom:20px;
+
+}
+.game h1{
+   align-items: center;
+   margin-left:30px;
+   line-height: 150%;
+   font-weight: 600;
+   margin-bottom:20px;
+   size: 32px;
+   font-style: bold;
+
+}
+.game p{
+   align-items: center;
+   margin-left:30px;
+   margin-bottom:20px;
+ color: gray;
+}
+
+.parho{
+      color: #7c4ee4;
+      width: 100px;
+          height: 35px;
+          border-radius:0.32em;
+          margin-left: 30px;
+}
+.card1{
+    /* margin: 10px; */
+  
+    display: flex;
+}
+.cardtitle1{
+    size: 12px;
+    line-height: 150%;
+    font-weight: 700;
+    letter-spacing: 0;
+    word-spacing: 10px;
+    margin: 10px;
+}
+.cardhead1{
+    size: 24px;
+    line-height: 150%;
+    font-weight: 700;
+ line-height: 31.99px;
+    margin: 3px;
+}
+.cardtext1{
+    margin: 3px;
+}
+.btn1{
+      color: #7c4ee4;
+      width: 100px;
+          height: 35px;
+          border-radius:0.32em;
+          margin-left: 30px;
+          margin-top: 1px;
+          border-color: aliceblue;
+}
+card2{
+    display: flex;
+    margin: 20px;
+    padding: 50px;
+}
+.flex{
+    display: flex;
+    margin:40px; */
+     justify-content: space-between; 
+     gap: 200px;
+}
+card3{
+    display: flex;
+    margin: 20px;
+    padding: 50px;
+}
+.last{
+    height: 400px;
+    margin-top: 40px;
+    width: 1340px;
+    background-color: #7c4ee4;
+    display: block;
+}
+.last h1{
+    font-size: 52px;
+    color: aliceblue;
+    line-height: 48px;
+    font-weight: 700px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin: 70px;
+    margin-top: 40px;
+    height: 40px;
+}
+.last input{
+    height: 40px;
+    width: 250px;
+    border-radius: 6px;
+    justify-content: center;
+    border-color:white ;
+    margin-left: 460px;
+    padding-left: 20px;
+    color: gray;
+    margin-top: 100px;
+}
+.last button{
+    width: 144px;
+    height: 50px;
+    background-color: #7c4ee4;
+    color: aliceblue;
+    margin-left: 780px;
+    border-radius: 5px;
+    border-color: black;
+    border-color: #7c4ee4;
+  margin-bottom:0px ;
+  cursor: pointer;
+}
+h6{
+    font-size: 16px;
+    color: aliceblue;
+    line-height: 48px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin: 70px;
+    margin-top: 40px;
+    height: 28px;
+}
+footer{
+    margin: 30px;
+    padding: 20px;
+}
+footer img{
+    margin-left: 40%;
+    margin-top: 05%;
+    margin-bottom: 03%;
+}
+footer a{
+    
+    margin-top: 20px;
+    margin-left:200px ;
+    justify-content: center;
+}
+footer p{
+    margin-left: 40%;
+    margin-top:03%;
+}
